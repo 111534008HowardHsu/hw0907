@@ -1,0 +1,151 @@
+/* 全局基礎設定 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, "Microsoft JhengHei", sans-serif;
+    background-color: #fefce8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* 頁首樣式 */
+.site-header {
+    background-color: #facc15;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site-header h1 {
+    color: #1e293b;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* 主要內容容器 */
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    flex: 1;
+}
+
+/* 主標題樣式 */
+.intro-title {
+    text-align: center;
+}
+
+.intro-title h2 {
+    color: #d97706;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #fef08a;
+    color: #854d0e;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* 圖片區塊 */
+.image-box {
+    text-align: center;
+    margin: 15px 0 25px 0;
+}
+
+.image-box img {
+    width: 210px;
+    height: auto;
+    filter: drop-shadow(0 5px 8px rgba(0,0,0,0.15));
+}
+
+/* 各段落區塊樣式 */
+.section-block {
+    margin-bottom: 30px;
+}
+
+/* 段落標題（左側黃色邊條裝飾） */
+.section-title {
+    font-size: 1.25rem;
+    color: #1e293b;
+    border-left: 5px solid #facc15;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.section-block p {
+    line-height: 1.7;
+    color: #475569;
+}
+
+/* 種族值表格樣式 */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.stats-table th, 
+.stats-table td {
+    padding: 10px 12px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.stats-table th {
+    background-color: #fef08a;
+    color: #713f12;
+}
+
+.stats-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.stats-table .total-row {
+    background-color: #fef9c3;
+    font-weight: bold;
+}
+
+/* 技能列表樣式 */
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #b45309;
+}
+
+/* 頁腳樣式 */
+.site-footer {
+    background-color: #1e293b;
+    color: #94a3b8;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.85rem;
+}
